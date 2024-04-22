@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  --container-width: 1200px;
+  --blue: #4eacdd;
+  --shadow-blue: #1fa9e1;
+  --highlight-blue: #6dc5ea;
+  --grey: #f4f4f4;
+  --light-grey: #b0b0b0;
+  --dark-grey: #7a7676;
+  --subheading-grey: #ffffffbb;
+  --green: #10ad8c;
+  --pink: #ea4c89;
+}
+
+section {
+  overflow: hidden;
+}
+
+button {
+  font-size: 14px;
+  background-color: transparent;
+  border: 2px solid;
+  margin: 40px 0px;
+  padding: 15px 25px;
+  font-size: 16px;
+}
+
+.btn-uppercase {
+  text-transform: uppercase;
+}
+
+button > img {
+  margin: 0px 10px;
+}
+
+.container {
+  width: var(--container-width);
+  height: 700px;
+  padding: 140px 0px;
+}
+
+.sub-container {
+  height: 400px;
+  padding: 120px;
+  justify-content: flex-start;
+}
+
+.sub-text-container {
+  margin: 20px 0px;
+  font-size: 20px;
+  font-weight: 200px;
+  line-height: 1.5;
+}
+
+nav {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  height: 120px;
+  width: var(--container-width);
+}
+
+.main {
+  background-color: var(--blue);
+}
+
+.menu-bars {
+  height: 4px;
+  background-color: white;
+  margin-bottom: 2px;
+  width: 30px;
+  border-radius: 14px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-self: baseline;
+  justify-content: center;
+  align-items: center;
+  color: var(--shadow-blue);
+  font-size: 40px;
+  box-shadow: 16px 16px var(--shadow-blue);
+}
+
+main {
+  color: white;
+  align-self: flex-end;
+}
+
+.main-heading {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.subheading {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.subheading--grey {
+  color: var(--subheading-grey);
+}
+
+.subheading--white {
+  color: white;
+}
+
+.heading--grey {
+  color: var(--dark-grey);
+}
+.heading--light-grey {
+  color: var(--light-grey);
+}
+
+.section--grey {
+  background-color: var(--grey);
+}
+
+.section--green {
+  background-color: var(--green);
+}
+
+.right-align {
+  text-align: end;
+  margin: 40px 0px;
+}
+
+.emphasis {
+  font-weight: 400;
+  color: white;
+}
+
+.main-img {
+  left: 330px;
+  top: 380px;
+  width: 300px;
+}
+
+.btn--white {
+  color: white;
+}
+
+.btn--green {
+  color: var(--green);
+}
+.btn--pink {
+  color: var(--pink);
+}
+
+.img--right {
+  right: 0px;
+  width: 400px;
+  top: 140px;
+}
+
+.img {
+  position: absolute;
+}
+
+.img-retina {
+  left: 0px;
+  top: 520px;
+  width: 400px;
+}
+
+.img-imac {
+  left: 150px;
+  top: 270px;
+  z-index: -2;
+  width: 540px;
+}
+
+.img-ipad {
+  left: 580px;
+  top: 460px;
+  z-index: -1;
+  width: 200px;
+}
+
+.img-iphone {
+  left: 750px;
+  top: 600px;
+  width: 80px;
+}
+.img-ipad-mini {
+  left: 800px;
+  top: 550px;
+  z-index: -1;
+  width: 140px;
+}
+.separator {
+  height: 80px;
+  width: 20px;
+  margin-right: 20px;
+  align-self: center;
+  background-color: var(--blue);
+}
+.separator--small {
+  height: 14px;
+  width: 2px;
+  margin-right: 20px;
+  align-self: center;
+  background-color: var(--light-grey);
+}
+.input-icon-group {
+  position: absolute;
+  align-items: center;
+  left: -60px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.btn-icon {
+  padding-left: 10px;
+}
+.icon--blue {
+  color: var(--blue);
+}
+
+.column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container--small {
+  width: 500px;
+}
+
+.container--medium {
+  width: 700px;
+}
+
+.right-container {
+  justify-content: end;
+  display: flex;
+}
+.letter-sub {
+  margin: 60px;
+  font-size: 18px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.primary-input {
+  width: 250px;
+  height: 40px;
+  padding: 1em;
+  border: none;
+  border-radius: 10px;
+}
+
+.primary-input::placeholder {
+  color: var(--light-grey);
+}
+.primary-input:focus {
+  outline: 1px solid var(--blue);
+}
+.social-media-icons {
+  padding: 20px;
+}
+.highlight--blue {
+  color: var(--highlight-blue);
+}
+
+.footer {
+  height: 140px;
+}
